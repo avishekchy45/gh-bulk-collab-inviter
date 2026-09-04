@@ -1,5 +1,5 @@
 #  Ask the user for the GitHub Repository URL
-$RepoInput = Read-Host "Please enter the GitHub repository link (e.g., https://github.com/avishekchy45/github-invite-users)"
+$RepoInput = Read-Host "Please enter the GitHub repository link (e.g., https://github.com/avishekchy45/gh-bulk-collab-inviter) or the 'owner/repo' format (e.g., avishekchy45/gh-bulk-collab-inviter)"
 
 # Clean up the input string and remove trailing slashes or spaces
 $RepoInput = $RepoInput.Trim().TrimEnd('/')
